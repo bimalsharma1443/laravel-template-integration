@@ -13,7 +13,9 @@ Here we are doing admin templet i.e. ADMINLTE into Laravel Framework. Following 
 
 ## Step 3: - Load templade.blade in view file.
 
-* **Load template into view file using `@extends` and write it on top of the view file.   							@extends('TEMPLATE_PATH_WITH_NAME_WITHOUT_EXTENSION');
+* **Load template into view file using `@extends` and write it on top of the view file.**		
+				
+				@extends('TEMPLATE_PATH_WITH_NAME_WITHOUT_EXTENSION');
 
 * **Create `@section` in view template to part view page in section.**
 
